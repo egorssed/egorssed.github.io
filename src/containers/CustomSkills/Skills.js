@@ -1,8 +1,16 @@
 import React, {useContext} from "react";
 import "./Skills.scss";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
-import {CustomPhysicsSkill, CustomDSSkill, CustomSWESkill} from "../../components/CustomsoftwareSkills/SoftwareSkill"
-import {illustration, skillsSection, CustomSkillsSection} from "../../portfolio";
+import {
+  CustomPhysicsSkill,
+  CustomDSSkill,
+  CustomSWESkill
+} from "../../components/CustomsoftwareSkills/SoftwareSkill";
+import {
+  illustration,
+  skillsSection,
+  CustomSkillsSection
+} from "../../portfolio";
 import {Fade} from "react-reveal";
 import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
@@ -35,40 +43,40 @@ export default function CustomSkills() {
             </p>
             <div>
               <p
-                    className={
-                      isDark
-                        ? "dark-mode subTitle skills-text"
-                        : "subTitle skills-text"
-                    }
-                  >
-                    {CustomSkillsSection.skills[0]}
-                  </p>
+                className={
+                  isDark
+                    ? "dark-mode subTitle skills-text"
+                    : "subTitle skills-text"
+                }
+              >
+                {CustomSkillsSection.skills[0]}
+              </p>
             </div>
-              <CustomPhysicsSkill />
-              <div>
+            <CustomPhysicsSkill />
+            <div>
               <p
-                    className={
-                      isDark
-                        ? "dark-mode subTitle skills-text"
-                        : "subTitle skills-text"
-                    }
-                  >
-                    {CustomSkillsSection.skills[1]}
-                  </p>
+                className={
+                  isDark
+                    ? "dark-mode subTitle skills-text"
+                    : "subTitle skills-text"
+                }
+              >
+                {CustomSkillsSection.skills[1]}
+              </p>
             </div>
-              <CustomDSSkill />
-              <div>
+            <CustomDSSkill />
+            <div>
               <p
-                    className={
-                      isDark
-                        ? "dark-mode subTitle skills-text"
-                        : "subTitle skills-text"
-                    }
-                  >
-                    {CustomSkillsSection.skills[2]}
-                  </p>
+                className={
+                  isDark
+                    ? "dark-mode subTitle skills-text"
+                    : "subTitle skills-text"
+                }
+              >
+                {CustomSkillsSection.skills[2]}
+              </p>
             </div>
-              <CustomSWESkill />
+            <CustomSWESkill />
           </div>
         </Fade>
         <Fade right duration={1000}>

@@ -39,43 +39,38 @@ const socialMediaLinks = {
 const CurrentOccupationSection = {
   display: true, // Set false to hide this section, defaults to true
   title: "What I do now",
-  subTitle: "Currently I search for dark matter using " +
-      "Gravitational lensing, which is an effect of Einstein's General Relativity. " +
-      "Specifically, I develop simulation-based inference algorithm to find " +
-      "galaxy satellites from the anomalies that they induce on the Einstein ring"
-}
+  subTitle:
+    "Currently I search for dark matter using " +
+    "Gravitational lensing, which is an effect of Einstein's General Relativity. " +
+    "Specifically, I develop simulation-based inference algorithm to find " +
+    "galaxy satellites from the anomalies that they induce on the Einstein ring"
+};
 
 const CustomSkillsSection = {
   display: true, // Set false to hide this section, defaults to true
   title: "Proficiency",
   subTitle: "Placeholder overall decription",
   skills: [
-    emoji(
-      "⚡ line Physics with placeholder icon"
-    ),
-    emoji(
-      "⚡ line Data Science with placeholder icon"
-    ),
-    emoji(
-      "⚡ line Programming with placeholder icon"
-    )
+    emoji("⚡ line Physics with placeholder icon"),
+    emoji("⚡ line Data Science with placeholder icon"),
+    emoji("⚡ line Programming with placeholder icon")
   ],
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  physicsSkills:[
+  physicsSkills: [
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
     }
   ],
-  DSSkills:[
+  DSSkills: [
     {
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     }
   ],
-  SWESkills:[
+  SWESkills: [
     {
       skillName: "sass",
       fontAwesomeClassname: "fab fa-sass"
@@ -428,4 +423,3 @@ export {
   CustomSkillsSection,
   CurrentOccupationSection
 };
-

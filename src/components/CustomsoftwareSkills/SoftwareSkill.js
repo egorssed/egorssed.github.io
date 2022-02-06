@@ -3,7 +3,7 @@ import "./SoftwareSkill.scss";
 import {skillsSection, CustomSkillsSection} from "../../portfolio";
 
 function CustomPhysicsSkill() {
-    // Variable that will store skill icons/names to be demonstrated for this domain
+  // Variable that will store skill icons/names to be demonstrated for this domain
   return (
     <div>
       <div className="software-skills-main-div">
@@ -27,7 +27,7 @@ function CustomPhysicsSkill() {
 }
 
 function CustomDSSkill() {
-    // Variable that will store skill icons/names to be demonstrated for this domain
+  // Variable that will store skill icons/names to be demonstrated for this domain
   return (
     <div>
       <div className="software-skills-main-div">
@@ -51,7 +51,7 @@ function CustomDSSkill() {
 }
 
 function CustomSWESkill() {
-    // Variable that will store skill icons/names to be demonstrated for this domain
+  // Variable that will store skill icons/names to be demonstrated for this domain
   return (
     <div>
       <div className="software-skills-main-div">
@@ -74,8 +74,4 @@ function CustomSWESkill() {
   );
 }
 
-export {
-    CustomPhysicsSkill,
-    CustomDSSkill,
-    CustomSWESkill
-}
+export {CustomPhysicsSkill, CustomDSSkill, CustomSWESkill};
