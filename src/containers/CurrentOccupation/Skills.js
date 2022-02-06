@@ -1,17 +1,18 @@
 import React, {useContext} from "react";
 import "./Skills.scss";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
-import {illustration, skillsSection} from "../../portfolio";
+import {illustration, CurrentOccupationSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
-export default function Skills() {
+export default function CurrentOccupation() {
   const {isDark} = useContext(StyleContext);
-  if (!skillsSection.display) {
+  if (!CurrentOccupationSection.display) {
     return null;
   }
+
   return (
     <div className={isDark ? "dark-mode main" : "main"} id="skills">
       <div className="skills-main-div">
@@ -21,7 +22,7 @@ export default function Skills() {
               <DisplayLottie animationData={codingPerson} />
             ) : (
               <img
-                alt="Man Working"
+                alt="Observable universe"
                 src={require("../../assets/images/Einstein_ring.png")}
               ></img>
             )}
@@ -32,7 +33,7 @@ export default function Skills() {
             <h1
               className={isDark ? "dark-mode skills-heading" : "skills-heading"}
             >
-              {skillsSection.title}{" "}
+              {CurrentOccupationSection.title}{" "}
             </h1>
             <p
               className={
@@ -41,25 +42,17 @@ export default function Skills() {
                   : "subTitle skills-text-subtitle"
               }
             >
-              {skillsSection.subTitle}
+              {CurrentOccupationSection.subTitle}
             </p>
-            <SoftwareSkill />
-            <div>
-              {skillsSection.skills.map((skills, i) => {
-                return (
-                  <p
-                    key={i}
-                    className={
-                      isDark
-                        ? "dark-mode subTitle skills-text"
-                        : "subTitle skills-text"
-                    }
-                  >
-                    {skills}
-                  </p>
-                );
-              })}
-            </div>
+            {illustration.animated ? (
+              <DisplayLottie animationData={codingPerson} />
+            ) : (
+              <img
+                alt="Observable universe"
+                src={require("../../assets/images/Gr_lensing_scheme.png")}
+                height={200}
+              ></img>
+            )}
           </div>
         </Fade>
       </div>

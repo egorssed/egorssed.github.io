@@ -5,8 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d3173af-cf52-462d-8230-48e7c3073f65" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/09b676831019c5d5c4b42a75526f79c9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/3fa43143806895.57fd6072bcd52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/6bnw39hmw0m41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/Darkmatter.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/Darkmatter_cut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/EPFLLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/Einstein_ring.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/Galaxy_MWlike.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/Gr_lensing_scheme.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/MIPT_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/Obs_Universe_logarithmic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/d9zrsna-6e327630-ffbd-48c8-b4bf-8c3cd09d0701.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/lens_galaxy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/milky-way-galaxy-png.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CustomsoftwareSkills/SoftwareSkill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CustomsoftwareSkills/SoftwareSkill.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/CurrentOccupation/Skills.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/CurrentOccupation/Skills.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/CustomSkills/Skills.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/CustomSkills/Skills.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/softwareSkills/SoftwareSkill.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/softwareSkills/SoftwareSkill.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/greeting/Greeting.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/greeting/Greeting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/skillProgress/skillProgress.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/skillProgress/skillProgress.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/skills/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/skills/Skills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,27 +40,42 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="backup" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="24hqBRrEISmXkofrrIxDxYeKSu2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/containers" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="advanced.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/containers" />
+      <recent name="$PROJECT_DIR$/src/components" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -44,11 +85,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1644093030327</updated>
-      <workItem from="1644093033320" duration="1645000" />
+      <workItem from="1644093033320" duration="2348000" />
+      <workItem from="1644151407464" duration="85000" />
+      <workItem from="1644151696757" duration="1864000" />
+      <workItem from="1644156520185" duration="2720000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
