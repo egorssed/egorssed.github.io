@@ -1,5 +1,5 @@
 import React, {useContext} from "react";
-import "./Skills.scss";
+import "./Occupation.scss";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import {illustration, CurrentOccupationSection} from "../../portfolio";
 import {Fade} from "react-reveal";
@@ -14,7 +14,7 @@ export default function CurrentOccupation() {
   }
 
   return (
-    <div className={isDark ? "dark-mode main" : "main"} id="skills">
+    <div className={isDark ? "dark-mode main" : "main"} id="occupation">
       <div className="skills-main-div">
         <Fade left duration={1000}>
           <div className="skills-image-div">

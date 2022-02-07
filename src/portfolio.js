@@ -12,7 +12,7 @@ const illustration = {
 
 const greeting = {
   username: "Egor Danilov",
-  title: "Hi all, I'm Egor",
+  title: "Hi, I'm Egor",
   subTitle: emoji(
     "Placeholder general description of my activities and interests"
   ),
@@ -40,10 +40,9 @@ const CurrentOccupationSection = {
   display: true, // Set false to hide this section, defaults to true
   title: "What I do now",
   subTitle:
-    "Currently I search for dark matter using " +
-    "Gravitational lensing, which is an effect of Einstein's General Relativity. " +
-    "Specifically, I develop simulation-based inference algorithm to find " +
-    "galaxy satellites from the anomalies that they induce on the Einstein ring"
+    "Currently, I develop an algorithm that aims to find galaxy satellites using galaxy-galaxy strong gravitational lensing. " +
+    "In this effect mass of the nearby galaxy induces curvature of space-time which acts as a lens for the light of distant galaxy (Scheme below). " +
+    "For a given lensed image, our algorithm decouples galaxy lensing from galaxy satellites lensing and traces the mass of the latter."
 };
 
 const CustomSkillsSection = {
@@ -60,20 +59,33 @@ https://fontawesome.com/icons?d=gallery */
 
   physicsSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Astrophysics",
+      fontAwesomeClassname: "fab fa-jedi-order"
+    },
+    //"fab fa-jedi-order","fab fa-galactic-republic" or the boring "far fa-star", "fad fa-galaxy"
+    {
+      skillName: "Cosmology",
+      fontAwesomeClassname: "fas fa-satellite-dish"
+    },
+    {
+      skillName: "Statistical physics",
+      fontAwesomeClassname: "fas fa-magnet"
+    },
+    {
+      skillName: "High energy physics",
+      fontAwesomeClassname: "fas fa-atom"
     }
   ],
   DSSkills: [
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Statistics",
+      fontAwesomeClassname: "fas fa-dice"
     }
   ],
   SWESkills: [
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
     }
   ]
 };

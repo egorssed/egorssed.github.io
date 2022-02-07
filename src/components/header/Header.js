@@ -10,7 +10,10 @@ import {
   openSource,
   blogSection,
   talkSection,
-  achievementSection
+  achievementSection,
+  bigProjects,
+  CustomSkillsSection,
+  CurrentOccupationSection
 } from "../../portfolio";
 
 function Header() {
@@ -21,6 +24,9 @@ function Header() {
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
+  const viewBigProjects = bigProjects;
+  const viewCustomSkills = CustomSkillsSection;
+  const viewCurrentOccupation = CurrentOccupationSection;
 
   return (
     <Headroom>
@@ -39,6 +45,16 @@ function Header() {
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
         <ul className={isDark ? "dark-menu menu" : "menu"}>
+          {viewCurrentOccupation && (
+            <li>
+              <a href="#occupation">What I do now</a>
+            </li>
+          )}
+          {viewCustomSkills && (
+            <li>
+              <a href="#proficiency">Proficiency</a>
+            </li>
+          )}
           {viewSkills && (
             <li>
               <a href="#skills">Skills</a>
@@ -74,9 +90,7 @@ function Header() {
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a>
-              <ToggleSwitch />
-            </a>
+            <a></a>
           </li>
         </ul>
       </header>

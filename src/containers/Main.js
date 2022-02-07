@@ -15,18 +15,20 @@ import Education from "./education/Education";
 import Top from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
 import Profile from "./profile/Profile";
-import CustomSkills from "./CustomSkills/Skills";
-import CurrentOccupation from "./CurrentOccupation/Skills";
+import CustomSkills from "./CustomSkills/Proficiency";
+import CurrentOccupation from "./CurrentOccupation/Occupation";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
 import "./Main.scss";
 
 const Main = () => {
-  const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
-  const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
+  //Remove functionality of theme switch
+  //const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
+  //const [_, setIsDark] = useLocalStorage("isDark", darkPref.matches);
 
+  const isDark = true;
   const changeTheme = () => {
-    setIsDark(!isDark);
+    //setIsDark(!isDark);
   };
 
   return (
