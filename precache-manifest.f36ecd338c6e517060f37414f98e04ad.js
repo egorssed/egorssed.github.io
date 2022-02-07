@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eb36028cf3937d8b6de6090a5c26fc36",
+    "revision": "97d44cdd9528ca21da19e8bada2c0e2e",
     "url": "/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "bc21809c8fb9dd43353c",
-    "url": "/static/css/main.3c62ec2f.chunk.css"
+    "revision": "587128be88c002251341",
+    "url": "/static/css/main.c60a7b0b.chunk.css"
   },
   {
     "revision": "18621dd413ec25538429",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/4.bb6a64f8.chunk.js"
   },
   {
-    "revision": "bc21809c8fb9dd43353c",
-    "url": "/static/js/main.fc62a97c.chunk.js"
+    "revision": "587128be88c002251341",
+    "url": "/static/js/main.df11b051.chunk.js"
   },
   {
     "revision": "c719a734eb2725f92f92",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Agustina.21f233e1.woff"
   },
   {
-    "revision": "fb11712c67b577e2e87f055b43c59ff9",
-    "url": "/static/media/Einstein_ring.fb11712c.png"
+    "revision": "4b25a54d28ac9abff441cd08c35a0956",
+    "url": "/static/media/Einstein_ring.4b25a54d.png"
   },
   {
     "revision": "af6a7e0bad27698e6ee3d38ee18c4d95",
